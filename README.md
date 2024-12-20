@@ -66,7 +66,11 @@ B) Second Predictive Modelling using **'town', 'floor area', 'lease commence dat
 Using the features detailed above, the Room Mean Square Error (RMSE) have improved to a value of $55,431.29. This indicates that the model can predict the resale value of the HDB flat with a variance of $55,431.29 from the actual price. Additionally, an R² value of 0.85 suggests that the model effectively explains 85% of the variation in the resale value of the HDB flats. <br> 
 
 ## Limitations 
+1. **Limited HDB Townships data** <br>
+There is only 1/8 of the historical data that have been used for training and data analysis, on basis of the total number of actual historical sold resale flats in Singapore from 2012 to 2021. <br>
 
+2. **Dataset having wide historical data** <br>
+As resale prices trends overtime due to several external factors (such as: Changes in employment rate, Foreign investment or even Inflation) and government policies ro curb the rising prices of resale flats in Singapore. <br>
 
 ## Recommendations 
 
