@@ -2,8 +2,6 @@
 
 ## Introduction
 
-![HDB_History](/images/HDB_History.png) <br>
-
 Over the years, HDB resale prices have become a hot topic among many Singaporeans. As million-dollar flats become increasingly common, combined with fluctuations and competitive pricing in the resale market, both homeowners and tenants find that mortgage payments or monthly rent can consume a significant portion of their income. Therefore, accurately determining the optimal transacted value is invaluable for buyers and sellers, providing insights into the current resale market. <br> 
 
 The goal of this data-driven tool is to:  
@@ -30,6 +28,9 @@ There are three files: <br>
 
 ## Data Exploration 
 Let’s examine how the trends in HDB resale prices have evolved over the years based on various factors. <br>
+
+- Overview history of HDB resale prices over the years from 2012 to 2021
+![HDB_History](/images/HDB_History.png) <br>
 
 ![HDB_Distribution_Price](/images/HDB_Dist_Price.png) <br>
 
