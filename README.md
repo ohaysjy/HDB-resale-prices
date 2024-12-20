@@ -9,7 +9,7 @@ The goal of this data-driven tool is to:
 - Accurately estimate the resale values of HDB flats based on different types and locations.  
 
 ## Problem Statement
-> HDB Resale Prices Predictive Modelling by using Linear Regression to accurately estimate competitive pricing for HDB resale flats for both buyers and sellers
+> "HDB Resale Prices Predictive Modelling by using Linear Regression to accurately estimate competitive pricing for HDB resale flats for both buyers and sellers"
 
 ## Datasets 
 
