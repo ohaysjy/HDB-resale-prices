@@ -1,10 +1,34 @@
-## HDB Resale Prices Predictive Modelling by using Linear Regression to accurately estimate competitive pricing for HDB resale flats for both buyers and sellers 
+# HDB Resale Prices Predictive Modelling
 
-![HDB_News](/images/HDB_News.png) <br>
+## Introduction
+
 ![HDB_History](/images/HDB_History.png) <br>
 
-Over the years, HDB resale prices have been a hot topic among many Singaporeans. With million-dollar flats becoming increasingly common, along with fluctuations in the resale market, HDB owners face challenges in determining the optimal value for buying or selling their flats. <br>
+Over the years, HDB resale prices have become a hot topic among many Singaporeans. As million-dollar flats become increasingly common, combined with fluctuations and competitive pricing in the resale market, both homeowners and tenants find that mortgage payments or monthly rent can consume a significant portion of their income. Therefore, accurately determining the optimal transacted value is invaluable for buyers and sellers, providing insights into the current resale market. <br> 
 
+The goal of this data-driven tool is to:  
+- Provide competitive pricing advice for clients looking to buy or sell their HDB resale flats.  
+- Accurately estimate the resale values of HDB flats based on different types and locations.  
+
+## Problem Statement
+> HDB Resale Prices Predictive Modelling by using Linear Regression to accurately estimate competitive pricing for HDB resale flats for both buyers and sellers
+
+## Datasets 
+
+Source: https://www.kaggle.com/competitions/dsi-sg-project-2-regression-challenge-hdb-price/data <br>
+
+There are three files: <br>
+- train_data.csv: 78 Columns by 150,634 Rows (January 2012 to April 2021)
+- test_data.csv: 78 Columns by 16,737 Rows (March 2012 to April 2021)
+
+
+## Data Cleaning 
+1. Replacing missing values with '0' for 'mall within 500m, 1km, and 2km' and also for 'hawker within 500m, 1km, and 2km' <br>
+2. Remove 829 data for 'mall nearest distance' <br>
+3. Checked for duplicates <br>
+4. Convert date columns to datetime format <br>
+
+## Data Exploration 
 Let’s examine how the trends in HDB resale prices have evolved over the years based on various factors. <br>
 
 ![HDB_Distribution_Price](/images/HDB_Dist_Price.png) <br>
