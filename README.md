@@ -44,12 +44,6 @@ Let’s examine how the trends in HDB resale prices have evolved over the years 
 ![HDB_Regions_One](/images/HDB_Regions_1.png) <br>
 ![HDB_Regions_Two](/images/HDB_Regions_2.png) <br>
 
-- Based on the Supermalls in Singapore: <br>
-![HDB_Supermall](/images/HDB_Supermall.png) <br>
-
-- Tableau HDB Resale Price Interactive Dashboard: <br>
-![HDB_Interactive_Dashboard](/images/HDB_Interactive_Dashboard.png) <br>
-
 ## Predictive Modelling
 A) First Predictive Modelling using **'town', 'floor area', 'lease commence date', 'resale price', 'transaction year and month', 'distance to nearest mall', 'distance to nearest hawker', and 'distance to nearest MRT'** as the first features. <br> 
 
@@ -73,5 +67,10 @@ There is only 1/8 of the historical data that have been used for training and da
 As resale prices trends overtime due to several external factors (such as: Changes in employment rate, Foreign investment or even Inflation) and government policies ro curb the rising prices of resale flats in Singapore. <br>
 
 ## Recommendations 
+1. Including a new feature which is based on the Supermalls in Singapore: <br>
+![HDB_Supermall](/images/HDB_Supermall.png) <br>
 
+2. Tableau HDB Resale Price Interactive Dashboard: <br>
+![HDB_Interactive_Dashboard](/images/HDB_Interactive_Dashboard.png) <br>
 
+3. Forcasting HDB Resale price using Auto ARIMA
